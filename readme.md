@@ -1,4 +1,2 @@
 # This is a readme file
-Adding text to test push.
-One more update.
-Another change
+This app is a test of the CI/CD process, it includes tests using python/selenium.
