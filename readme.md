@@ -17,3 +17,9 @@ killall Xvfb
 
 <img src="https://i.imgur.com/boPwKvU.png" alt="website" title="CI/CD">
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 64839f0768b66d38aa0aa3ca0fec77fc9ab5c82e
