@@ -33,6 +33,15 @@ chk = check_exists_by_xpath("HTML/BODY")
 
 assert "No results found." not in driver.page_source
 
+filename ="testresults.png"
+delay=3
+zoom=100
+
+driver.execute_script(f"document.body.style.zoom='{zoom}%'")
+time.sleep(delay)
+driver.save_screenshot(filename)
+
+
 if chk == True :
     print("The test was successful!")
 
