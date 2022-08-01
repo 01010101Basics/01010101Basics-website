@@ -40,7 +40,7 @@ zoom=100
 driver.execute_script(f"document.body.style.zoom='{zoom}%'")
 time.sleep(delay)
 driver.save_screenshot(filename)
-
+os.system("/usr/bin/imgur/imgur.sh testresults.png")
 
 if chk == True :
     print("The test was successful!")
