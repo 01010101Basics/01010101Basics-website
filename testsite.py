@@ -17,7 +17,7 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 
 import os
 import json
-
+import time
 
 driver.get("http://10.0.0.16:82/")
 elem = driver.find_element(By.XPATH, "HTML/BODY")
